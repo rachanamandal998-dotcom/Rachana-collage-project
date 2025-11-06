@@ -1,0 +1,297 @@
+{
+  "Japanese": [
+    {
+      "id": "1",
+      "coursename": "Top 5 Words You Should Use When Speaking Casual Japanese",
+      "courselink": "https://www.youtube.com/watch?v=cDME9ayrtbo",
+      "pic_link": "https://i.ytimg.com/vi/cDME9ayrtbo/hqdefault.jpg",
+      "title": "Japanese Ammo with Misa",
+      "desc": "Upgrade your everyday Japanese with essential casual phrases. Available in English."
+    },
+    {
+      "id": "2",
+      "coursename": "LEARN JAPANESE | LESSON - 01",
+      "courselink": "https://www.youtube.com/watch?v=VTeHGWJueF4",
+      "pic_link": "https://i.ytimg.com/vi/VTeHGWJueF4/hqdefault.jpg",
+      "title": "Japanese for Beginners",
+      "desc": "Introduction to Japanese sounds and writing styles. Available in Hindi."
+    },
+    {
+      "id": "3",
+      "coursename": "Japanese Language in Nepali | Lesson 1-5",
+      "courselink": "https://www.youtube.com/watch?v=E_JIH_KAsM8",
+      "pic_link": "https://i.ytimg.com/vi/E_JIH_KAsM8/hqdefault.jpg",
+      "title": "Japanese Language in Nepali",
+      "desc": "Basic Japanese lessons. Available in Nepali."
+    },
+    {
+      "id": "4",
+      "coursename": "Japanese Language Course for JLPT N5",
+      "courselink": "https://www.youtube.com/watch?v=qiikAKMmaMA",
+      "pic_link": "https://i.ytimg.com/vi/qiikAKMmaMA/hqdefault.jpg",
+      "title": "IndoSensei",
+      "desc": "Comprehensive course for JLPT N5. Available in Hindi and English."
+    }
+  ],
+  "Korean": [
+    {
+      "id": "1",
+      "coursename": "[1 hour] Learn to Read Korean | Full Hangeul Course",
+      "courselink": "https://www.youtube.com/watch?v=uNDf0V06m0w",
+      "pic_link": "https://i.ytimg.com/vi/uNDf0V06m0w/hqdefault.jpg",
+      "title": "Talk To Me In Korean (TTMIK)",
+      "desc": "Master Hangeul (the Korean alphabet) in just one hour. Available in English."
+    },
+    {
+      "id": "2",
+      "coursename": "Learn Korean through Hindi with SNU Level 1 Textbook",
+      "courselink": "https://www.youtube.com/playlist?list=PLkrV4TJwuUQtMyAnWpXr7y9HDwvgR9ZfJ",
+      "pic_link": "https://i.ytimg.com/vi/OpTG7-0Pmpw/hqdefault.jpg",
+      "title": "SNU Korean Level 1",
+      "desc": "Comprehensive Korean course in Hindi. Available in Hindi."
+    },
+    {
+      "id": "3",
+      "coursename": "Learn Korean with Satish",
+      "courselink": "https://www.youtube.com/watch?v=PUzDqncBBdE",
+      "pic_link": "https://i.ytimg.com/vi/PUzDqncBBdE/hqdefault.jpg",
+      "title": "Korean through Hindi",
+      "desc": "Beginner-friendly Korean lessons. Available in Hindi and English."
+    },
+    {
+      "id": "4",
+      "coursename": "Learn Korean Language in Nepali",
+      "courselink": "https://www.youtube.com/watch?v=FK_WFzrF7dQ",
+      "pic_link": "https://i.ytimg.com/vi/FK_WFzrF7dQ/hqdefault.jpg",
+      "title": "Learn Korean in Nepali",
+      "desc": "Basic Korean lessons. Available in Nepali."
+    }
+  ],
+  "coding": [
+    {
+      "id": "1",
+      "coursename": "CS50's Introduction to Computer Science",
+      "courselink": "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+      "pic_link": "download (3).jpeg",
+      "title": "Comprehensive Intro to Computer Science",
+      "desc": "Covers algorithms, data structures, software engineering, and more. Ideal for beginners in programming."
+    },
+    {
+      "id": "2",
+      "coursename": "Introduction to Programming with Python",
+      "courselink": "https://pll.harvard.edu/course/cs50s-introduction-programming-python",
+      "pic_link": "images.png",
+      "title": "Learn Python Programming",
+      "desc": "Learn programming fundamentals with Python, covering data types, loops, functions, and more."
+    },
+    {
+      "id": "3",
+      "coursename": "Free Online IT and Computing Courses",
+      "courselink": "https://alison.com/courses/it",
+      "pic_link": "download (5).jpeg",
+      "title": "IT & Computing Fundamentals",
+      "desc": "Over 400 courses covering networking, software development, data analysis, and IT certifications."
+    },
+    {
+      "id": "4",
+      "coursename": "Free IT Training Courses",
+      "courselink": "https://www.ituonline.com/product-category/free-courses/",
+      "pic_link": "download (6).jpeg",
+      "title": "Expert-led IT Training",
+      "desc": "Learn networking, cybersecurity, cloud computing, and other IT skills through free online courses."
+    }
+  ],
+  
+  "computer_science": [
+    {
+      "id": "5",
+      "coursename": "Free Online Courses – Stanford Online",
+      "courselink": "https://online.stanford.edu/free-courses",
+      "pic_link": "download (7).jpeg",
+      "title": "Free Courses from Stanford",
+      "desc": "Access Stanford University’s free courses on AI, programming, data science, and other tech topics."
+    },
+    {
+      "id": "6",
+      "coursename": "Free Online Courses – University of Washington",
+      "courselink": "https://www.pce.uw.edu/news-features/articles/free-online-courses-to-help-improve-your-skills",
+      "pic_link": "istockphoto-2173915109-612x612.webp",
+      "title": "Skill Improvement Courses",
+      "desc": "Courses based on UW certificate and degree programs, available instantly on Coursera for free."
+    },
+    {
+      "id": "7",
+      "coursename": "Best Free Courses & Certificates Online",
+      "courselink": "https://www.coursera.org/browse?free=true",
+      "pic_link": "download (8).jpeg",
+      "title": "Free Online Courses on Coursera",
+      "desc": "Explore hundreds of free courses in IT, Science, Business, and more with certificates."
+    },
+    {
+      "id": "8",
+      "coursename": "Introduction to Data Science",
+      "courselink": "https://www.coursera.org/learn/data-science-methodology",
+      "pic_link": "download (9).jpeg",
+      "title": "Data Science Basics",
+      "desc": "Learn the foundations of data science, including data analysis, visualization, and methodology."
+    },
+    {
+      "id": "10",
+      "coursename": "Introduction to Artificial Intelligence",
+      "courselink": "https://www.edx.org/course/artificial-intelligence-ai",
+      "pic_link": "istockphoto-1196854029-612x612.webp",
+      "title": "AI Fundamentals",
+      "desc": "Learn the basics of AI including machine learning, neural networks, and real-world AI applications."
+    },
+    {
+      "id": "15",
+      "coursename": "Free Online Databases Courses - Alison",
+      "courselink": "https://alison.com/tag/databases",
+      "pic_link": "istockphoto-480230592-612x612.webp",
+      "title": "Database Management Fundamentals",
+      "desc": "Learn about SQL, database relationships, and programming techniques through free online courses."
+    },
+    {
+      "id": "16",
+      "coursename": "CS50's Introduction to Databases with SQL",
+      "courselink": "https://pll.harvard.edu/course/cs50s-introduction-databases-sql",
+      "pic_link": "istockphoto-1800292591-612x612.webp",
+      "title": "Databases with SQL",
+      "desc": "Learn how to create, read, update, and delete data with SQL in this comprehensive course."
+    },
+    {
+      "id": "19",
+      "coursename": "Learn SQL - Codecademy",
+      "courselink": "https://www.codecademy.com/learn/learn-sql",
+      "pic_link": "download (10).jpeg",
+      "title": "SQL for Data Management",
+      "desc": "Learn how to manage large datasets and analyze real data using SQL in this interactive course."
+    }
+  ],
+  "food": [
+    {
+      "id": "11",
+      "coursename": "Homemade Cooking - Free Online Classes",
+      "courselink": "https://www.homemadecooking.com/",
+      "pic_link": "istockphoto-2228656596-612x612.webp",
+      "title": "Interactive Cooking Classes",
+      "desc": "Join live, interactive cooking classes led by expert chefs. Cook along in real time and learn new skills."
+    },
+    {
+      "id": "12",
+      "coursename": "Free Online Farming Courses - Alison",
+      "courselink": "https://alison.com/tag/farming",
+      "pic_link": "istockphoto-1369943627-612x612.webp",
+      "title": "Farming Fundamentals",
+      "desc": "Learn about agriculture, crop production, and farming techniques through free online courses."
+    },
+    {
+      "id": "13",
+      "coursename": "Best Agriculture Courses & Certificates",
+      "courselink": "https://www.coursera.org/courses?query=agriculture",
+      "pic_link": "premium_photo-1663045240246-bb47582681cf.avif",
+      "title": "Agriculture Courses on Coursera",
+      "desc": "Explore courses on sustainable agriculture, food security, and more, offered by top universities."
+    },
+    {
+      "id": "14",
+      "coursename": "Free Urban Agriculture Overview Course",
+      "courselink": "https://workspace.oregonstate.edu/course/free-urban-agriculture-overview-course",
+      "pic_link": "download (11).jpeg",
+      "title": "Urban Agriculture Basics",
+      "desc": "Gain a basic orientation to urban agriculture, covering topics like soil health and crop production."
+    },
+    {
+      "id": "17",
+      "coursename": "Free Online Cooking Classes | Culinary School",
+      "courselink": "https://www.ice.edu/about/events/free-online-cooking-classes",
+      "pic_link": "istockphoto-629375124-612x612.webp",
+      "title": "Fundamental Baking Techniques",
+      "desc": "Offers six free online classes on fundamental baking techniques like whipping, folding, and caramelizing."
+    },
+    {
+      "id": "18",
+      "coursename": "Free Online Cooking Classes | Baking Steel",
+      "courselink": "https://bakingsteel.com/pages/free-online-cooking-classes-videos",
+      "pic_link": "premium_photo-1675103909671-5b8ab65f8b6d.avif",
+      "title": "Pizza, Breads, and Pasta Recipes",
+      "desc": "Free video cooking classes covering pizza, bread, and pasta recipes to enhance your culinary skills."
+    },
+    {
+      "id": "20",
+      "coursename": "Free Online Agriculture Courses",
+      "courselink": "https://pvamu.libguides.com/c.php?g=1430941&p=10748572",
+      "pic_link": "istockphoto-1351542181-612x612.webp",
+      "title": "Agriculture Resources",
+      "desc": "Empower people in agriculture through the strategic use of agricultural library resources."
+    }
+  ],
+  "graphic_design": [
+    {
+      "id": "21",
+      "coursename": "Graphic Design Basics",
+      "courselink": "https://www.coursera.org/learn/graphic-design",
+      "pic_link": "premium_photo-1726873362218-198cfb79fab0.Avif",
+      "title": "Graphic Design Fundamentals",
+      "desc": "Learn the principles of design, color theory, typography, and creating digital graphics."
+    },
+    {
+      "id": "22",
+      "coursename": "Adobe Photoshop Essentials",
+      "courselink": "https://www.adobe.com/learn/photoshop",
+      "pic_link": "download (13).jpeg",
+      "title": "Photoshop for Beginners",
+      "desc": "Master the basics of Photoshop including layers, editing tools, and creating visuals."
+    },
+    {
+    "id": "1",
+    "coursename": "Fundamentals of Creative Design",
+    "courselink": "https://www.coursera.org/learn/graphic-design",
+    "pic_link": "premium_photo-1661313661883-74ff2476ee17.Avif",
+    "title": "Introduction to Graphic Design",
+    "desc": "Offered by CalArts, this course covers typography, composition, and color theory, providing a solid foundation in graphic design principles."
+  },
+   {
+    "id": "5",
+    "coursename": "Graphic Design Specialization",
+    "courselink": "https://www.coursera.org/specializations/graphic-design",
+    "pic_link": "product-jpeg-250x250.webp",
+    "title": "Comprehensive Graphic Design Course",
+    "desc": "A series of courses from CalArts covering typography, branding, and user-centered design, suitable for aspiring designers."
+  }
+  ],
+  "video_editing": [
+    {
+      "id": "23",
+      "coursename": "Video Editing with Adobe Premiere Pro",
+      "courselink": "https://www.adobe.com/learn/premiere-pro",
+      "pic_link": "63695da1b3d97c9ce44efadb_crop video in premiere pro.jpg",
+      "title": "Premiere Pro Basics",
+      "desc": "Learn to edit videos, add transitions, and export professional-quality video projects."
+    },
+    {
+      "id": "24",
+      "coursename": "Final Cut Pro X Essential Training",
+      "courselink": "https://www.youtube.com/watch?v=-MrHvGoq9lY",
+      "pic_link": "download (14).jpeg",
+      "title": "Video Editing Fundamentals",
+      "desc": "Edit, cut, and produce videos using Final Cut Pro X with guided examples."
+    },
+    {
+    "id": "3",
+    "coursename": "Video Editing for COMPLETE BEGINNERS",
+    "courselink": "https://www.youtube.com/watch?v=mdfMztoP840",
+    "pic_link": "https://img.youtube.com/vi/mdfMztoP840/0.jpg",
+    "title": "Beginner's Guide to Video Editing",
+    "desc": "A comprehensive YouTube tutorial designed for absolute beginners to learn video editing using free software."
+  },
+   {
+    "id": "5",
+    "coursename": "Free Online Video Editing Courses",
+    "courselink": "https://www.alison.com/tag/video-editing",
+    "pic_link": "download.png",
+    "title": "Alison's Video Editing Courses",
+    "desc": "A collection of free online courses teaching various aspects of video editing, suitable for beginners and professionals alike."
+   }
+  ]
+}
