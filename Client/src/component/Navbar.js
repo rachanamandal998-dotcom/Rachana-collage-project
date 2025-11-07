@@ -15,6 +15,8 @@ const defaultLinks = [
 //   },
   { label: "Course", href: "/course" },
   { label: "Contact", href: "/contact" },
+  {label: "Login", href: "/login"},
+
 ];
 
 export default function Navbar({

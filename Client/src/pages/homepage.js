@@ -1,24 +1,24 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./homepage.css";
 import coursesData from "./../freecourse.json";
 import SearchBar from "../component/SearchBar";
 import MyFooter from "../component/MyFooter";
 
-
 function Homepage() {
   const categories = Object.keys(coursesData);
-
   const [searchResults, setSearchResults] = useState(null);
+  const navigate = useNavigate();
+
+  // Redirect to login on "View Course"
+  const handleViewCourse = () => {
+    navigate("/login");
+  };
 
   return (
     <div className="homepage">
-      {/* Navigation Bar */}
-
-
-      {/* Search Bar */}
       <SearchBar coursesData={coursesData} onResults={setSearchResults} />
 
-      {/* Courses Sections */}
       <main>
         {searchResults ? (
           <section className="search-results">
@@ -31,14 +31,12 @@ function Homepage() {
                     <div className="card-body">
                       <h3>{course.title}</h3>
                       <p>{course.desc}</p>
-                      <a
-                        href={course.courselink}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <button
                         className="btn"
+                        onClick={handleViewCourse} // 👈 go to login
                       >
                         View Course
-                      </a>
+                      </button>
                     </div>
                   </div>
                 ))
@@ -60,14 +58,12 @@ function Homepage() {
                     <div className="card-body">
                       <h3>{course.title}</h3>
                       <p>{course.desc}</p>
-                      <a
-                        href={course.courselink}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <button
                         className="btn"
+                        onClick={handleViewCourse} // 👈 go to login
                       >
                         View Course
-                      </a>
+                      </button>
                     </div>
                   </div>
                 ))}
@@ -77,8 +73,7 @@ function Homepage() {
         )}
       </main>
 
-      {/* Footer */}
-<MyFooter/>
+      <MyFooter />
     </div>
   );
 }
