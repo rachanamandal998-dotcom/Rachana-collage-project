@@ -4,7 +4,6 @@ import AdminNavbar from "../AdminNavbar";
 
 function ViewCourses() {
   const [courses, setCourses] = useState([]);
-  const [selectedCourse, setSelectedCourse] = useState(null);
   const [editMode, setEditMode] = useState(false);
   const [editCourse, setEditCourse] = useState({});
 
@@ -38,6 +37,12 @@ function ViewCourses() {
   const handleEditClick = (course) => {
     setEditMode(true);
     setEditCourse(course);
+  };
+
+  // 👁️ Handle View PDF
+  const handleViewClick = (course) => {
+    const pdfUrl = `http://localhost:4000/storage/${course.coursePdf}`;
+    window.open(pdfUrl, "_blank");
   };
 
   // 💾 Submit course update
@@ -74,7 +79,7 @@ function ViewCourses() {
       <div className="homepage px-4 py-8">
         <h2 className="text-2xl font-bold text-center mb-6">Courses</h2>
 
-        {/* Edit Form */}
+        {/* ✏️ Edit Form */}
         {editMode && (
           <div className="max-w-lg mx-auto bg-white shadow-md p-6 rounded-lg mb-8">
             <h3 className="text-xl font-semibold mb-4">Edit Course</h3>
@@ -146,7 +151,7 @@ function ViewCourses() {
           </div>
         )}
 
-        {/* Course Grid */}
+        {/* 📚 Course Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {courses.map((course) => (
             <div
@@ -166,12 +171,12 @@ function ViewCourses() {
                   {course.courseDescription}
                 </p>
 
-                <div className="flex justify-between">
+                <div className="flex justify-between items-center">
                   <button
                     className="bg-indigo-600 text-white py-1 px-3 rounded hover:bg-indigo-700"
-                    onClick={() => setSelectedCourse(course)}
+                    onClick={() => handleViewClick(course)}
                   >
-                    View
+                    View PDF
                   </button>
                   <button
                     className="bg-yellow-500 text-white py-1 px-3 rounded hover:bg-yellow-600"
@@ -180,10 +185,11 @@ function ViewCourses() {
                     Edit
                   </button>
                   <button
-                    className="bg-red-600 text-white py-1 px-3 rounded hover:bg-red-700"
+                    className="bg-red-600 text-white py-1 px-3 rounded hover:bg-red-700 text-lg"
                     onClick={() => handleDelete(course.id)}
+                    title="Delete Course"
                   >
-                    Delete
+                    🗑️
                   </button>
                 </div>
               </div>
