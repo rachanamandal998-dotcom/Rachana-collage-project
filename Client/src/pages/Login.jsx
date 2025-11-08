@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-import { Link } from "react-router-dom"; // 👈 Import Link from react-router-dom
+import { Link, useNavigate } from "react-router-dom";
 import "react-toastify/dist/ReactToastify.css";
 import "./Login.css";
 
@@ -8,22 +8,38 @@ const Login = () => {
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
   const [success, setSuccess] = useState("");
+  const navigate = useNavigate();
 
-  const handleLogin = (e) => {
+  const handleLogin = async (e) => {
     e.preventDefault();
     setSuccess("");
 
-    // Mock credentials (replace with backend API later)
-    const mockUser = {
-      phone: "9876543210",
-      password: "123456",
-    };
+    try {
+      const response = await fetch("http://localhost:4000/user/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          phone: phone,
+          password: password,
+        }),
+      });
 
-    if (phone === mockUser.phone && password === mockUser.password) {
-      setSuccess("Login successful! 🎉");
-      toast.success("Welcome back!");
-    } else {
-      toast.error("Invalid phone number or password!");
+      const resData = await response.json();
+
+      if (response.ok) {
+        localStorage.setItem("token", resData.token); // ✅ save token
+        toast.success("Login Successful!");
+
+        setTimeout(() => {
+          navigate("/course"); // redirect after login
+        }, 1200);
+      } else {
+        toast.error(resData.message || "Invalid phone or password");
+      }
+    } catch (error) {
+      toast.error("Server error. Try again later.");
     }
   };
 
@@ -52,15 +68,12 @@ const Login = () => {
 
           <button type="submit">Login</button>
 
-          {/* 👇 Add this section */}
           <p className="signup-link">
-            Don’t have an account?{" "}
-            <Link to="/signup">Sign up</Link>
+            Don’t have an account? <Link to="/signup">Sign up</Link>
           </p>
         </form>
       </div>
 
-      {/* Toast notifications */}
       <ToastContainer position="top-center" autoClose={2500} />
     </div>
   );

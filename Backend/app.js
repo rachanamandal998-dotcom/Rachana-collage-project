@@ -16,10 +16,12 @@ app.use("/storage", express.static(path.join(__dirname, "src/storage")));
 const authRoutes =  require('./src/routes/adminRoute')
 const courseRoutes = require('./src/routes/courseRoute')
 const messageRoutes = require('./src/routes/messageRoute')
+const userRoutes = require('./src/routes/userRoute')
 
 app.use('/',authRoutes)
 app.use('/course',courseRoutes)
 app.use('/',messageRoutes)
+app.use('/user/',userRoutes)
 
 
 const PORT = 4000;

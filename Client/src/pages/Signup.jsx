@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Signup.css";
 
 const Signup = () => {
-  // Separate useState for each field
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
   const [password, setPassword] = useState("");
@@ -11,12 +10,11 @@ const Signup = () => {
   const [error, setError] = useState("");
   const [success, setSuccess] = useState("");
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setError("");
     setSuccess("");
 
-    // Basic validation
     if (!fullName || !phone || !password || !confirmPassword) {
       setError("Please fill in all fields.");
       return;
@@ -27,10 +25,37 @@ const Signup = () => {
       return;
     }
 
-    // api calll 
+    // ✅ API CALL
+    try {
+      const response = await fetch("http://localhost:4000/user/register", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: fullName,
+          phone: phone, 
+          password: password,
+        }),
+      });
 
-    setSuccess("Signup successful! 🎉");
-    console.log("User Data:", { fullName, phone, password });
+      const data = await response.json();
+
+      if (response.ok) {
+        setSuccess("Signup successful! 🎉");
+        console.log("User Registered:", data);
+
+        // Optional: clear form
+        setFullName("");
+        setPhone("");
+        setPassword("");
+        setConfirmPassword("");
+      } else {
+        setError(data.message || "Something went wrong");
+      }
+    } catch (err) {
+      setError("Server error. Try again later.");
+    }
   };
 
   return (

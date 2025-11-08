@@ -5,6 +5,7 @@ import Login from "./auth/Login";
 import AddCourse from "./component/course/AddCourse";
 import ViewMessages from "./component/ViewMessage";
 import ViewCourses from "./component/course/ViewCourses";
+import ViewUser from "./component/Viewuser";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path="/dashboard" element={<ViewCourses/>} />
           <Route path="/course" element={<AddCourse/>} />
           <Route path="/message" element={<ViewMessages/>} />
+          <Route path="/user" element={<ViewUser/>} />
         </Routes>
       </BrowserRouter>
     </>

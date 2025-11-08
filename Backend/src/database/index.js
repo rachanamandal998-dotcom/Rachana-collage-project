@@ -32,6 +32,7 @@ db.sequelize = sequelize;
 db.admins = require("../model/adminModel.js")(sequelize, DataTypes);
 db.courses = require("../model/courseModel.js")(sequelize, DataTypes);
 db.messages = require("../model/contactModel.js")(sequelize, DataTypes);
+db.users = require("../model/UserModel.js")(sequelize, DataTypes);
 
 db.sequelize.sync({ force: false }).then(() => {
   console.log("yes re-sync done");

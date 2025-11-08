@@ -17,6 +17,14 @@ const AdminNavbar = () => {
       <ul className="flex space-x-6 text-lg font-medium">
         <li>
           <Link
+            to="/user"
+            className="hover:text-yellow-300 transition-colors duration-200"
+          >
+            View User
+          </Link>
+        </li>
+        <li>
+          <Link
             to="/course"
             className="hover:text-yellow-300 transition-colors duration-200"
           >
@@ -31,6 +39,7 @@ const AdminNavbar = () => {
             View Message
           </Link>
         </li>
+
         <li>
           <button
             onClick={() => {
